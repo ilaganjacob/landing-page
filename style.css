@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #183f26;
+    height: 7.5rem;
+    min-height: 3.75rem;
+    width: 100%;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    color: black;
+}
