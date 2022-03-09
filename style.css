@@ -1,14 +1,25 @@
 body {
     display: flex;
     flex-direction: column;
+}
+
+.top-part {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
     color: white;
+}
+
+.header-logo {
+    size: 24px;
+    color: #f9faf8;
 }
 
 a {
@@ -22,7 +33,6 @@ a {
 }
 
 .quote-section {
-    background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: center;
@@ -31,6 +41,18 @@ a {
 .left-side {
     display: flex;
     flex-direction: column;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 0;
+    width: 20%;
+    height: 15%;
 }
 
 .empty-rectangle {
@@ -49,7 +71,63 @@ a {
     align-items: center;
 }
 
+.this-website {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .four-boxes {
     display: flex;
     justify-content: space-between;
+}
+
+.information {
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1f2937;
+}
+
+.box1 {
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border: 10px solid;
+}
+
+.quote-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.thor {
+    font-weight: bold;
+}
+.cac-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-rectangle {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+}
+
+.sign-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
